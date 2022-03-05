@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <meta name="description> content="Patient registration form">
+    <title>Patient Registration Form</title>
+</head>
+<body>
+    <h2>Patient Registration Form</h2>
+    <form>
+        <label for="fname">First Name: </label>
+        <input type="text" id="fname" name="fname"/><br><br>
+        <label for="lname">Last Name: </label>
+        <input type="text" id="lname" name="lname"/><br><br>
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"/><br><br>
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age" size="3" maxlength="3"/><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"/><br><br>
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone"/><br><br>
+        <label for="rname">Relative Name: </label>
+        <input type="text" id="rname" name="rname"/><br><br>
+        <label for="rphone">Phone Number:</label>
+        <input type="tel" id="rphone" name="rphone"/><br><br>
+        <label for="medicines">Medicines taken:</label>
+        <select id="medicines" name="medicines">
+            <option value="Advil">Advil</option>
+            <option value="Tylenol">Tylenol</option>
+            <option value="Motrin">Motrin</option>
+        </select><br><br>
+       <label for="allergies">Allergies:</label>
+       <input type="radio" id="allergies" name="allergies" value="Yes">Yes</input>
+       <input type="radio" id="allergies" name="allergies" value="No">No</input><br><br>
+       
+       <label for="payment">Payment:</label>
+       <input type="radio" id="payment" name="payment" value="Online">Online</input>
+       <input type="radio" id="payment" name="payment" value="Cash">Cash</input><br><br>
+       <label for="purpose">Purpose of visit:</label><br>
+       <textarea  id="purpose" name="purpose" rows="4" cols="50"></textarea>
+    </form>
+</body>
