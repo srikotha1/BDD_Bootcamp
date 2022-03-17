@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest of two numbers</title>
+</head>
+<body>
+    <h1>Largest of two numbers</h1>
+    <div>
+        <label for="num1">Enter First Number:    </label>
+        <input type="number" id="num1" name="num1" /><br><br>
+        <label for="num2">Enter Second Number:</label>
+        <input type="number" id="num2" name="num2" /><br><br>
+        <input type="submit" id="largest" name="largest" onclick="largest_num()"/><br><br>
+        <label for="largest_num">The Largest Number:    </label>
+        <input type="number" id="largest_num" name="largest_num" /><br><br>
+        <p id="equal"></p>
+        
+
+
+    </div>
+    <script type="text/javascript">
+      
+      function largest_num(){
+        
+            var n1=document.getElementById("num1").value;
+            var n2=document.getElementById("num2").value;
+
+            const no1=parseInt(n1, 10);
+            const no2=parseInt(n2, 10)
+            if (n1>n2)
+            {
+                document.getElementById("largest_num").value=n1;
+            }
+            else if (n1==n2)
+            {
+               document.getElementById("equal").innerText="Both Numbers are Equal"
+            }
+            else
+            {
+                 document.getElementById("largest_num").value=n2;
+            }
+                
+        
+        }
+    </script>
+</body>
+
+</html>
