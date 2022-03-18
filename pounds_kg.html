@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kilograms to Pound</title>
+</head>
+<body>
+    <h2 style="color:blue;">Convert Kilograms to Pound</h2>
+    <label for="num_kg" style="color:chocolate"> Kilograms: </label>
+    <input type="number" id="num_kg" name="num_kg" /><br><br>
+    <label for="num_pounds" style="color:chocolate"> Pounds: </label>
+    <input type="number" id="num_pounds" name="num_pounds" /><br><br>
+   
+    <input type="submit" id="btnconvert" name="btnconvert" onclick="convert_pounds_kg()" /><br><br>
+    <p id="result" style="color:blue;"></p>
+
+
+
+<script type="text/javascript">
+    function convert_pounds_kg(){
+        if (document.getElementById('num_kg').value == null || document.getElementById('num_kg').value == "" )
+        {
+        var no_kg
+        var no_pounds=document.getElementById('num_pounds').value
+        no_kg=no_pounds*0.453592
+        document.getElementById('num_kg').value=no_kg
+        }
+        else if(document.getElementById('num_pounds').value == null || document.getElementById('num_pounds').value == ""){
+        var no_pounds
+        var no_kg=document.getElementById('num_kg').value
+        no_pounds=no_kg*2.20462
+        document.getElementById('num_pounds').value=no_pounds
+        }
+        else
+        document.getElementById('result').innerText="Please enter Kilograms or Pounds"
+    }
+   
+</script>
+</body>
+</html>
