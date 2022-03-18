@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Longest of two strings</title>
+</head>
+<body>
+    <h2 style="color:blue;">Longest of two strings</h2>
+    <label for="str1" style="color:chocolate">Enter First String: </label>
+    <input type="text" id="str1" name="str1" /><br><br>
+    <label for="str2" style="color:chocolate">Enter Second String: </label>
+    <input type="text" id="str2" name="str2" /><br><br>
+    
+    <input type="submit" id="btnstring" name="btnstring" onclick="longest_string()" /><br><br>
+    <p id="result" style="color:blue;"></p>
+
+
+<script type="text/javascript">
+    function longest_string(){
+        let s1=document.getElementById('str1').value
+        let s2=document.getElementById('str2').value
+
+        const l1=s1.length
+        const l2=s2.length
+
+
+        if (l1 > l2)
+        {
+            document.getElementById('result').innerText=s1 + " is the longest."
+        }
+         else if (l2 > l1)
+        {
+            document.getElementById('result').innerText=s2 + " is the longest."
+        }   
+        else if (l1 ==l2)
+        {
+            document.getElementById('result').innerText="Both Strings are equal."
+        }
+
+    }
+   
+</script>
+</body>
+</html>
