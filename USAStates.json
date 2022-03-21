@@ -1,0 +1,105 @@
+{
+    "states":[
+        {
+            "name":"Maryland",
+            "capital":"Annapolis",
+            "largest city":"Baltimore",
+            "bird":"Baltimore oriole",
+            "flower":"Black-eyed Susan",
+            "governor":"Larry Hogan",
+            "nick name":"Free State",
+            "abbreviation":"MD"
+         },
+         {
+            "name":"New York",
+            "capital":"Albany",
+            "largest city":"New York",
+            "bird":"Eastern bluebird",
+            "flower":"Rose",
+            "governor":"Kathy Hochul",
+            "nick name":"The Empire State",
+            "abbreviation":"NY"
+         },
+         {
+            "name":"New Jersey",
+            "capital":"Trenton",
+            "largest city":"Vineland",
+            "bird":"American Goldfinch",
+            "flower":"Common blue violet",
+            "governor":"Phil Murphy",
+            "nick name":"The Garden State",
+            "abbreviation":"NJ"
+         },
+         {
+            "name":"North Carolina",
+            "capital":"Raleigh",
+            "largest city":"Charlotte",
+            "bird":"Cardinal",
+            "flower":"Flowering dogwood ",
+            "governor":"Roy Cooper",
+            "nick name":"Old North State",
+            "abbreviation":"NC"
+         },
+         {
+            "name":"Florida",
+            "capital":"Tallahassee",
+            "largest city":"Jacksonville",
+            "bird":"Northern mockingbird",
+            "flower":"Orange blossom",
+            "governor":"Ron Desantis",
+            "nick name":"The Sunshine State",
+            "abbreviation":"FL"
+         },
+         {
+            "name":"California",
+            "capital":"Sacramento",
+            "largest city":"Los Angeles",
+            "bird":"California quail",
+            "flower":"California poppy",
+            "governor":"Gavin Newsom",
+            "nick name":"The Golden State",
+            "abbreviation":"CA"
+         },
+         {
+            "name":"Texas",
+            "capital":"Austin",
+            "largest city":"Houston",
+            "bird":"Northern Mockingbird",
+            "flower":"Bluebonnets",
+            "governor":"Greg Abbott",
+            "nick name":"The Lone Star State",
+            "abbreviation":"TX"
+         },
+         {
+            "name":"Virginia",
+            "capital":"Richmond",
+            "largest city":"Virginia ",
+            "bird":"Cardinal",
+            "flower":"Flowering dogwood",
+            "governor":"Glenn Youngkin",
+            "nick name":"The Old Dominion",
+            "abbreviation":"VA"
+         },
+         {
+            "name":"Hawaii",
+            "capital":"Honolulu",
+            "largest city":"Honolulu County",
+            "bird":"Nene",
+            "flower":"Yellow hibiscus",
+            "governor":"David Ige",
+            "nick name":"The Aloha State",
+            "abbreviation":"HI"
+         },
+         {
+            "name":"South Carolina",
+            "capital":"Columbia",
+            "largest city":"Charleston",
+            "bird":"Carolina Wren",
+            "flower":"Yellow jessamine",
+            "governor":"Henry McMaster",
+            "nick name":"The Palmetto State ",
+            "abbreviation":"SC"
+         }
+         
+]
+}
