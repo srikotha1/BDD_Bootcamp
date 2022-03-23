@@ -1,0 +1,13 @@
+{
+  "teams":[
+      {
+      "name":"Indian Cricket Team",
+      "players":["Mayank Agarwal","Rohit Sharma","Hanuma Vihari","Virat Kohli","Rishabh Pant","Shreyas Iyer","Ravindra Jadeja","Ravichandran Ashwin","Axar Patel","Mohammed Shami","Jasprit Bumrah"]
+      },
+      {
+      "name":"Australian Cricket Team",
+      "players":["Aaron Finch","David Warner","Steve Smith","Glenn Maxwell","Mitchell Marsh","Matthew Wade","Ashton Agar","Pat Cummins","Mitchell Starc","Kane Richardson","Adam Zampa"]
+      }
+    ]
+}
+
